@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#main {
+    width: 1000px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    border: 1px solid #CDCDCD;
+    margin-bottom: 5px;
+}
+
+#head {
+    height: 100px;
+}
+
+#head-link {
+    height: 30px;
+}
+
+#left, #content, #right {
+    min-height: 400px;
+}
+
+#left {
+    float: left;
+    width: 200px;
+}
+
+#content {
+    float: left;
+    width: 600px;
+    margin: 0 5px 5px;
+}
+
+#right {
+    float: right;
+    width: calc(100% - 200px - 600px - 10px - 6px);
+}
+
+#footer {
+    height: 50px;
+    clear: both;
+}
